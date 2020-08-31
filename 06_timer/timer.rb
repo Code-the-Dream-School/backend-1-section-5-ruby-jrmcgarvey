@@ -7,7 +7,7 @@ class Timer
   def seconds
     @seconds
   end
-  
+
   def seconds=(seconds)
     @seconds = seconds
   end
@@ -21,7 +21,7 @@ class Timer
   end
 
   def padded(a)
-    if a>10
+    if a>=10
       return a.to_s
     end
     if a>0
